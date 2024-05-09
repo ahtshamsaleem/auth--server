@@ -4,7 +4,7 @@ const sendMail = require("./sendMail");
 const sendResetPassEmail = async (user, resetToken) => {
 
     const subject = "Password Reset Request";
-    const link = `$http://localhost:3000/reset-password?token=${resetToken}&id=${user._id}`;
+    const link = `$https://auth-client-pi.vercel.app//reset-password?token=${resetToken}&id=${user._id}`;
 
     const msgToSend = `
     <html>

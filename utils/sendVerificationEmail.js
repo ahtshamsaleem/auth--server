@@ -13,7 +13,7 @@ const sendVerficationEmail = async (email) => {
     let message = `Hi! There, You have recently visited  
     our website and entered your email. 
     Please follow the given link to verify your email 
-    http://localhost:8000/verify/${token}
+    https://auth-serve.up.railway.app/verify/${token}
     Thanks` 
 
     
